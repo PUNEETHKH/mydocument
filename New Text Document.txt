@@ -1,0 +1,11 @@
+1 create instance -----> t2.medium-------> launch instance------> security group (all trafic)
+2 open the mobxtream-----> add public ip ----- name (ec2-user)------> add keypair
+3type ----> sudo su
+      ----> copy the URL---->(wget https://releases.jfrog.io/artifactory/bintray-artifactory/org/artifactory/oss/jfrog-artifactory-oss/[RELEASE]/jfrog-artifactory-oss-[RELEASE]-linux.tar.gz?_gl=1*1li7shh*_ga*NDE5NTQ4Mzk4LjE2NTc3OTg1NTM.*_ga_SQ1NR9VTFJ*MTY1Nzg3NzAzNi40LjEuMTY1Nzg3NzA4NS4xMQ..)
+      ----> ls
+      ----> tar -zvxf jfrog-artifactory-oss-\[RELEASE\]-linux.tar.gz\?_gl\=1\*1li7shh\*_ga\*NDE5NTQ4Mzk4LjE2NTc3OTg1NTM.\*_ga_SQ1NR9VTFJ\*MTY1Nzg3NzAzNi40LjEuMTY1Nzg3NzA4NS4xMQ..
+      ----> ls
+      ----> cd app
+      ----> ls
+      ----> cd bin
+      ----> ./artifactoryctl
